@@ -1,0 +1,293 @@
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies end. Took 8 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies end. Took 1 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars end. Took 1 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes end. Took 2 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries end. Took 66 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames end. Took 624 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames end. Took 7 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check end. Took 1967 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mBuilding assembly jar due to changed inputs...[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) end. Took 12037 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results start:[0m
+[0m[[0m[0minfo[0m] [0m[0m12 file(s) merged using strategy 'Rename' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = LICENSE_scala-library-2.12.17[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = LICENSE_scala-reflect-2.12.17[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-library-2.12.17.jar, jar org = org.scala-lang, entry target = LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-reflect-2.12.17.jar, jar org = org.scala-lang, entry target = LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_commons-io-2.11.0.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_commons-compress-1.23.0.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_commons-lang3-3.12.0.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_commons-math3-3.5.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-io-2.11.0.jar, jar org = commons-io, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-compress-1.23.0.jar, jar org = org.apache.commons, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-math3-3.5.jar, jar org = org.apache.commons, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/NOTICE_commons-io-2.11.0.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/NOTICE_commons-compress-1.23.0.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/NOTICE_commons-lang3-3.12.0.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/NOTICE_commons-math3-3.5.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-io-2.11.0.jar, jar org = commons-io, entry target = META-INF/NOTICE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-compress-1.23.0.jar, jar org = org.apache.commons, entry target = META-INF/NOTICE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/NOTICE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-math3-3.5.jar, jar org = org.apache.commons, entry target = META-INF/NOTICE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = NOTICE_scala-library-2.12.17[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = NOTICE_scala-reflect-2.12.17[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-library-2.12.17.jar, jar org = org.scala-lang, entry target = NOTICE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-reflect-2.12.17.jar, jar org = org.scala-lang, entry target = NOTICE[0m
+[0m[[0m[0minfo[0m] [0m[0m24 file(s) merged using strategy 'Deduplicate' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Deduplicate[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = spire/scalacompat/IterableLikeCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-macros_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/IterableLikeCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-platform_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/IterableLikeCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-util_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/IterableLikeCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/IterableLikeCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Deduplicate[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = spire/scalacompat/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-macros_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-platform_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-util_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Deduplicate[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = spire/scalacompat/BuilderCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-macros_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/BuilderCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-platform_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/BuilderCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-util_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/BuilderCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/BuilderCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Deduplicate[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = spire/scalacompat/package$FactoryCompatOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-macros_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$FactoryCompatOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-platform_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$FactoryCompatOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-util_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$FactoryCompatOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package$FactoryCompatOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Deduplicate[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = spire/scalacompat/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-macros_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-platform_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-util_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Deduplicate[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = spire/scalacompat/ScalaOrderingWrapperCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-macros_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/ScalaOrderingWrapperCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-platform_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/ScalaOrderingWrapperCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-util_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/ScalaOrderingWrapperCompat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire_2.12-0.17.0.jar, jar org = org.typelevel, entry target = spire/scalacompat/ScalaOrderingWrapperCompat.class[0m
+[0m[[0m[0minfo[0m] [0m[0m46 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-math3-3.5.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-math3/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = opencsv-2.3.jar, jar org = net.sf.opencsv, entry target = META-INF/maven/net.sf.opencsv/opencsv/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = lapack-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/maven/dev.ludovic.netlib/lapack/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = JTransforms-3.1.jar, jar org = com.github.wendykierp, entry target = META-INF/maven/com.github.wendykierp/JTransforms/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = blas-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/maven/dev.ludovic.netlib/blas/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-lang3/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-1.7.5.jar, jar org = org.slf4j, entry target = META-INF/maven/org.slf4j/slf4j-api/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = JLargeArrays-1.5.jar, jar org = pl.edu.icm, entry target = META-INF/maven/pl.edu.icm/JLargeArrays/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-compress-1.23.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-compress/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-io-2.11.0.jar, jar org = commons-io, entry target = META-INF/maven/commons-io/commons-io/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-lang3/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = associationstestlibrary_2.12-1.1.0-SNAPSHOT.jar, jar org = ca.mikelavender, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-library-2.12.17.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-reflect-2.12.17.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = JTransforms-3.1.jar, jar org = com.github.wendykierp, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-io-2.11.0.jar, jar org = commons-io, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = arpack-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = blas-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = lapack-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = opencsv-2.3.jar, jar org = net.sf.opencsv, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = arpack_combined_all-0.1.jar, jar org = net.sourceforge.f2j, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-compress-1.23.0.jar, jar org = org.apache.commons, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-lang3-3.12.0.jar, jar org = org.apache.commons, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-math3-3.5.jar, jar org = org.apache.commons, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-collection-compat_2.12-2.7.0.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = breeze-macros_2.12-2.1.0.jar, jar org = org.scalanlp, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = breeze_2.12-2.1.0.jar, jar org = org.scalanlp, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-1.7.5.jar, jar org = org.slf4j, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = algebra_2.12-2.0.1.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = cats-kernel_2.12-2.1.1.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-macros_2.12-0.17.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-platform_2.12-0.17.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire-util_2.12-0.17.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spire_2.12-0.17.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = JLargeArrays-1.5.jar, jar org = pl.edu.icm, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-compress-1.23.0.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-compress/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = opencsv-2.3.jar, jar org = net.sf.opencsv, entry target = META-INF/maven/net.sf.opencsv/opencsv/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = JTransforms-3.1.jar, jar org = com.github.wendykierp, entry target = META-INF/maven/com.github.wendykierp/JTransforms/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = lapack-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/maven/dev.ludovic.netlib/lapack/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-io-2.11.0.jar, jar org = commons-io, entry target = META-INF/maven/commons-io/commons-io/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = JLargeArrays-1.5.jar, jar org = pl.edu.icm, entry target = META-INF/maven/pl.edu.icm/JLargeArrays/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = commons-math3-3.5.jar, jar org = org.apache.commons, entry target = META-INF/maven/org.apache.commons/commons-math3/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = blas-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/maven/dev.ludovic.netlib/blas/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = arpack-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/maven/dev.ludovic.netlib/arpack/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = arpack-3.0.1.jar, jar org = dev.ludovic.netlib, entry target = META-INF/maven/dev.ludovic.netlib/arpack/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = slf4j-api-1.7.5.jar, jar org = org.slf4j, entry target = META-INF/maven/org.slf4j/slf4j-api/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results end. Took 18 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged end. Took 264 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries end. Took 61 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar end. Took 5279 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar end. Took 244 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: /Users/mikelavender/Documents/GitHub/nm_metric_evaluations/target/scala-2.12/nm_tests.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: 14e34922719e0f98b9f30301f319cd5067b23a14[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references end. Took 2 ms[0m

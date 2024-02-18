@@ -1,24 +1,17 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/mikelavender/Documents/Source Code/GitHub/nm_metrics_distributions/02-code-scripts/scala_code/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/mikelavender/Documents/GitHub/nm_metric_evaluations/target/scala-2.12/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UnarchiverError.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	runner$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ArchiveFormatError.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UnexpectedUnarchiverError$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	noiseParser$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Unpacker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CommonMethods.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	typeII.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	noiseParser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CompressorError.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	typeI.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UnexpectedUnarchiverError.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Unpacker$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	noise.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CompressorError$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	noiseParser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ArchiveFormatError$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Unpacker$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	runner$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	runner.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/mikelavender/Documents/Source Code/GitHub/nm_metrics_distributions/02-code-scripts/scala_code/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CommonMethods.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typeII.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typeI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	noise.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CommonMethods.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typeII.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	typeI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	noise.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/mikelavender/Documents/GitHub/nm_metric_evaluations/target/scala-2.12/classes.bak[0m
