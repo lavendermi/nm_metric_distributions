@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4080f980-2dd0-40bc-8a5a-f409d4f26927" name="Changes" comment="* added invertMatrix method to CommonMethods.scala to make matrices absence focused (absences are 1's presences are 0's)&#10;* added temporary lines of code to typeI.scala, typeII.scala, and noise.scala to allow for testing of the null models x metrics with inverted matrices.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/noise.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/noise.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/noiseParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/noiseParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/typeI.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/typeI.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/typeII.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/typeII.scala" afterDir="false" />
-    </list>
+    <list default="true" id="4080f980-2dd0-40bc-8a5a-f409d4f26927" name="Changes" comment="* added invertMatrix method to CommonMethods.scala to make matrices absence focused (absences are 1's presences are 0's)&#10;* added temporary lines of code to typeI.scala, typeII.scala, and noise.scala to allow for testing of the null models x metrics with inverted matrices." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
