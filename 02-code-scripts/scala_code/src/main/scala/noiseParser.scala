@@ -25,8 +25,8 @@ object noiseParser extends App {
 
   // This pathVar needs to be set to match the system it is running on! Unfortunately, the way I setup the project I
   // can't use relative paths. It should point to the folder that the "01-raw_data" folder is in.
-  val pathVar = "/Users/mikelavender/Documents/Source Code/RStudioProjects/inverted_nm_metric_evaluations/"
-//  val pathVar = "/Users/mikelavender/Documents/Source Code/GitHub/nm_metrics_distributions/"
+//  val pathVar = "/Users/mikelavender/Documents/Source Code/RStudioProjects/inverted_nm_metric_evaluations/"
+  val pathVar = "/Users/mikelavender/Documents/Source Code/GitHub/nm_metrics_distributions/"
 
   val file = new File(pathVar + "01-raw_data/noise_parsed/noise_parsed.tsv")
   val bw = new BufferedWriter(new FileWriter(file))

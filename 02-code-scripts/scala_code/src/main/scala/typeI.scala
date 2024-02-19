@@ -25,8 +25,8 @@ class typeI(sim: String,
   val commons = new CommonMethods
 
 
-//  val file = new File(pathVar + "raw_data/typeI/typeI_" +
-  val file = new File(pathVar + "raw_data/typeI/inverted_typeI_" +
+  //  val file = new File(pathVar + "raw_data/typeI/inverted_typeI_" +
+  val file = new File(pathVar + "raw_data/typeI/typeI_" +
     distribution + "_" + sim +  "_" + java.util.UUID.randomUUID.toString + ".tsv")
 
   val bw = new BufferedWriter(new FileWriter(file))
@@ -38,7 +38,7 @@ class typeI(sim: String,
     "A_16", "A_17", "A_18", "A_19", "A_20", "A_21", "A_22", "A_23", "A_24", "A_25", "A_26", "A_27", "A_28", "A_29",
     "A_30", "A_31", "A_32", "A_33", "C_7", "C_8", "A_36", "A_37", "A_38", "A_39", "A_40", "A_41", "A_42", "A_43",
     "S_8", "S_26",
-    "Index_2", "Index_3", "Index_4", "Index_5", "Index_6", "Index_7", "Index_8", "Index_9", "Index_12", "Index_12b",
+    "Index_2", "Index_3", "Index_4", "Index_5", "Index_6", "Index_7", "Index_8", "Index_9", "Index_12", "Index_12_b",
     "Index_16", "Index_18", "Index_41", "Index_46", "Index_45",
     "BR", "NODF", "Sharedness", "Togetherness", "checker", "clumping", "combo", "cscore", "netCovariance", "sCoE", "vRatio"
   )
@@ -55,8 +55,8 @@ class typeI(sim: String,
     val species = Random.nextInt(66) + 10
     val plots = Random.nextInt(66) + 10
     counter += 1
-//    val orgMtx = mFactory.buildMatrix(species, plots, speciesConstraint = distribution)
-    val orgMtx = commons.invertMatrix(mFactory.buildMatrix(species, plots, speciesConstraint = distribution))
+    val orgMtx = mFactory.buildMatrix(species, plots, speciesConstraint = distribution)
+//    val orgMtx = commons.invertMatrix(mFactory.buildMatrix(species, plots, speciesConstraint = distribution))
 
 
     val nullDist = commons.runNullModels(orgMtx, sim, sim9Iter, metricsList)

@@ -30,8 +30,8 @@ class noise(sim: String,
   val abcd_metrics = new abcd_metrics
   val matrix_metrics = new matrix_metrics
 
-//  val file = new File(pathVar + "raw_data/noise/noise_" +
-  val file = new File(pathVar + "raw_data/noise/inverted_noise_" +
+  //  val file = new File(pathVar + "raw_data/noise/inverted_noise_" +
+  val file = new File(pathVar + "raw_data/noise/noise_" +
     distribution + "_" + direction + "_" + sim + "_" + java.util.UUID.randomUUID.toString + ".tsv")
 
   val bw = new BufferedWriter(new FileWriter(file))
@@ -59,8 +59,8 @@ class noise(sim: String,
     val mtx_UUID = java.util.UUID.randomUUID.toString
     val species = Random.nextInt(66) + 10
     val plots = Random.nextInt(66) + 10
-//    val orgMtx = maximizePattern(mFactory.buildMatrix(species, plots, speciesConstraint = distribution), direction = direction)
-    val orgMtx = commons.invertMatrix(maximizePattern(mFactory.buildMatrix(species, plots, speciesConstraint = distribution), direction = direction))
+    val orgMtx = maximizePattern(mFactory.buildMatrix(species, plots, speciesConstraint = distribution), direction = direction)
+//    val orgMtx = commons.invertMatrix(maximizePattern(mFactory.buildMatrix(species, plots, speciesConstraint = distribution), direction = direction))
 
     var counter = 0
 
