@@ -93,6 +93,6 @@ java -jar -Xmx256m -Xms64m -XX:+UseSerialGC nm_tests.jar typeII $NM $SP $PL true
 To generate the noise data...:
 
 ```{bash}
-java -jar -Xmx256m -Xms64m -XX:+UseSerialGC nm_tests.jar noise $NM $SP $PL true $N $DIST
-# parameters are the same BUT there is no $DIR parameter
+java -jar -Xmx256m -Xms64m -XX:+UseSerialGC nm_tests.jar noise $NM $SP $PL true $N $DIST p
+# parameters are the same BUT the last parameter is alway postive (p)
 ```
